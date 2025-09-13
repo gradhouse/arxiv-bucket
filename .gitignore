@@ -1,0 +1,14 @@
+.idea/
+
+# python
+__pycache__/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# coverage reports
+.coverage
+
