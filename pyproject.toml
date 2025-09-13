@@ -11,6 +11,8 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "Pillow",
+    "xmltodict",
 ]
 
 [project.optional-dependencies]
