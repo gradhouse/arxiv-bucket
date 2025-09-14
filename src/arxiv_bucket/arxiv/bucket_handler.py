@@ -32,7 +32,7 @@ class BucketHandler:
     @staticmethod
     def fetch_source_manifest(destination_directory: str) -> None:
         """
-        Copy the arXiv manifest file arXiv_src_manifest.xml from the AWS S3 arXiv source bucket to a local destination
+        Download the arXiv manifest file arXiv_src_manifest.xml from the AWS S3 arXiv source bucket to a local destination
         directory using the AWS CLI.
 
         :param destination_directory: str, the local file path where the object will be copied.
@@ -44,7 +44,7 @@ class BucketHandler:
     @staticmethod
     def fetch_source_bulk_archive(bulk_archive_filename: str, destination_directory: str) -> None:
         """
-        Copy a bulk archive file from the AWS S3 arXiv source bucket to a local destination
+        Download a bulk archive file from the AWS S3 arXiv source bucket to a local destination
         directory using the AWS CLI.
 
         :param bulk_archive_filename: str, the bulk archive filename that will be copied.

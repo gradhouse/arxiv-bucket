@@ -4,7 +4,7 @@
 
 ## 1. Overview
 
-arxiv-bucket is a Python toolkit to automate bulk download, validation, and lightweight cataloging of arXiv submission datasets from the arXiv AWS S3 bulk data service. It provides end-to-end primitives to fetch manifests and bulk archives, copy data from S3 (requester-pays aware), extract submission packages, detect and validate file types (PDF, PS, TeX, images), compute content hashes, and maintain registries and diagnostics for downstream processing.
+arxiv-bucket is a python tool for accessing and processing arXiv's bulk data from AWS S3. It handles the download, extraction, validation, and basic cataloging of arXiv submission packages with minimal configuration. The library manages requester-pays S3 access, archive extraction, file validation, and creates usable metadata for downstream processing.
 
 ### 1.1 Key capabilities
 - Reliable S3 integration and safe download helpers (wrapping aws CLI calls with retries, timeouts, and request-payer support).
