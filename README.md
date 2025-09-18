@@ -6,6 +6,8 @@
 
 arxiv-bucket is a python tool for accessing and processing arXiv's bulk data from AWS S3. It handles the download, extraction, validation, and basic cataloging of arXiv submission packages with minimal configuration. The library manages requester-pays S3 access, archive extraction, file validation, and creates usable metadata for downstream processing.
 
+- [Project Wiki](https://github.com/gradhouse/arxiv-bucket/wiki)
+
 ### 1.1 Key capabilities
 - S3 Integration: Downloads data from arXiv's requester-pays bucket with proper error handling and retries
 - Archive Processing: Extracts and validates tar/tgz/gz archives containing arXiv submissions
